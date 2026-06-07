@@ -1,0 +1,26 @@
+# virtual environment — never commit this
+venv/
+
+# environment variables — never commit real keys
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# FAISS index files (large binary, rebuild from source)
+*.faiss
+*.pkl
+
+# data folder (PDFs can be large)
+data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
