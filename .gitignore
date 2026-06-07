@@ -1,7 +1,7 @@
-# virtual environment — never commit this
+# virtual environment
 venv/
 
-# environment variables — never commit real keys
+# environment variables
 .env
 
 # Python cache
